@@ -5,7 +5,6 @@ package decoratordesignpattern;
  * attack, defense, weapon, and armor.
  * the parent's toString is also appended with the class name.
  * @author zacharystthomas
- *
  */
 public class Warrior extends Player{
 
@@ -20,17 +19,13 @@ public class Warrior extends Player{
 		super.defense=5;
 		super.weapon="Sword";
 		super.armor="Breast Plate";
-	
 	}
-	
 	/**
 	 *@return Returns the text "Warrior: " alongside the parent's toString. 
 	 */
-	public String toString() {
-		
+	public String toString() {	
 		return "Warrior: "+super.toString();
 	}
-	
 	
 	
 }
