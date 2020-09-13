@@ -19,13 +19,10 @@ public class Mage extends Player{
 		super.weapon="Staf";
 		super.armor="Robe";
 	}
-	
 	/**
 	 *@return Returns the text "Mage: " alongside the parent's toString. 
 	 */
-	public String toString() {
-		
-		
+	public String toString() {	
 		return "Mage: "+super.toString();
 	}
 }
