@@ -5,19 +5,14 @@ package decoratordesignpattern;
  * @author zacharystthomas
  */
 public class ArmorUpgrade extends PlayerDecorator{
-
 	private Player player;
-	
 	/**
 	 * Constructor.
 	 * @param player: Either a Warrior, Mage, or Healer, given to be set to this class's player variable.
 	 */
 	public ArmorUpgrade(Player player){
-		
 		this.player = player;
-		
 	}
-	
 	/**
 	 * Adds a new line with the phrase "Upgraded armor" to the player's toString.
 	 */
@@ -25,7 +20,6 @@ public class ArmorUpgrade extends PlayerDecorator{
 		// TODO Auto-generated method stub
 		return player.toString() + "\nUpgraded armor";
 	}
-
 	/**
 	 * Adds three to the calculated value of the Player's power.
 	 */
