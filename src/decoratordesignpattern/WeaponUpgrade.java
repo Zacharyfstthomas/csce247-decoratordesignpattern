@@ -12,10 +12,7 @@ public class WeaponUpgrade extends PlayerDecorator{
 	 * @param player: Either a Warrior, Mage, or Healer, given to be set to this class's player variable.
 	 */
 	public WeaponUpgrade(Player player) {
-		
-		this.player = player;
-
-		
+		this.player = player;		
 	}
 	/**
 	 * Adds a new line with the phrase "Upgraded armor" to the player's toString.
